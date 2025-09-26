@@ -1,0 +1,43 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent" android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/etType"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:hint="Jenis (Kereta/Pesawat)" />
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Nama Maskapai/Kereta" />
+
+        <EditText
+            android:id="@+id/etRoute"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Rute (contoh: Jakarta - Surabaya)" />
+
+        <EditText
+            android:id="@+id/etSchedule"
+            android:layout_width="match_parent"
+            android:layout_height="63dp"
+            android:hint="Jadwal (contoh: 10:00 - 14:00)" />
+
+        <EditText
+            android:id="@+id/etPrice"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:hint="Harga Tiket"
+            android:inputType="numberDecimal" />
+
+        <Button android:id="@+id/btnSave"
+            android:text="Simpan"
+            android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>

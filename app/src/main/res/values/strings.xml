@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TicketBookingApp</string>
+    <string name="add_transport">Tambah Transportasi</string>
+
+</resources>
